@@ -11,7 +11,7 @@
 
 using namespace std;
 
-double parse(char*& expr)
+double parse(char*& expr)  //This doesnt do what I want, parenthesis are kill
 {
     char* end_ptr;
     double res = strtod(expr, &end_ptr);
